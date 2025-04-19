@@ -1,0 +1,32 @@
+%Declaracion del documento
+\documentclass[a4paper,12pt]{article}
+%Preambulo
+%Las siguientes lineas solo son metadatos, aunque podermos utilizarlo mas adelante dentro del documento.
+\title{Mi primer documento}
+\date{2025-01-06}
+\author{Alvaro Alarcon}
+%Las siquiente dos lineas especifican paquetes de funciones no estandar que, en este caso, permiten al documento manejar adecuadamente textos en español.
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+% Inicio del documento propiamente dicho
+
+\begin{document}
+%Aqui comienza el cuerpo del articulo
+
+\maketitle
+\section{¡Hola, mundo!}
+La energia es igual a la masa multiplicada por el cuadrado de la velocidad luz:
+
+% Las formulas matematicas se escriben entre 4 simbolos de dolar (dos delante, y dos detras)
+
+$$E = mc^2$$
+
+%Asi se introduce una lista con dos items
+\begin{itemize}
+\item Primer elemento de la lista
+\item Segundo elemento de la lista 
+\end{itemize}
+%Fin del documento
+\end{document}
+
+
